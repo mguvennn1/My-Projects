@@ -1,0 +1,15 @@
+Yeni laptobda gidip en son çıkan Python'u (3.12 veya 3.13) kurma! Bizim sistemimizin en stabil çalıştığı sürüm Python 3.11.
+Kurulumu yaparken ilk ekrandaki en altta çıkan "Add Python.exe to PATH" kutucuğunu İŞARETLEMEYİ KESİNLİKLE UNUTMA.
+
+Projeyi Ana dizine kur masaüstüne kurma türkçe karakterden dolayı çalışmaz. Önerilen C dizinine kurmak.
+
+Şu komutu yazarak sanal ortamı yarat:
+py -3.11 -m venv .venv
+
+Fanusu aktif et (Solda yeşil (.venv) yazısını mutlaka gör):
+.\.venv\Scripts\activate
+
+pip install -r requirements.txt
+
+çalıştırmak için:
+streamlit run dashboard.py
